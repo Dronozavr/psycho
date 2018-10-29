@@ -1,0 +1,91 @@
+@media (min-width: 0px) and (max-width: 992px )
+{
+    .header__burger-menu
+    {
+        display: block;
+    }
+    .header__nav
+    {
+        display: none;
+    }
+    .header__link
+    {
+        display: block;
+        font-size: 1.5em;
+        line-height: 60px;
+    }
+    .header__burger
+    {
+        vertical-align: 30px;
+    }
+    .header__nav-link
+    {
+        font-size: 1.9em;
+    }
+    .header__nav-link::before
+    {
+        content: '-';
+        font-size: 1em;
+        color: #07b1d5;
+        margin-right: 0.4em;
+    }
+    .title-screen
+    {
+        opacity: 0.9;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px )
+{
+    .header__link
+    {
+        display: block;
+        font-size: 1.7em;
+        line-height: 60px;
+    }
+    .footer__link
+    {
+        font-size: 0.8em;
+        margin-left: 0;
+    }
+}
+@media (min-width: 0px) and (max-width: 345px )
+{
+    .header__link
+    {
+        display: block;
+        font-size: 1.2em;
+        line-height: 60px;
+    }
+    .header__nav-link
+    {
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 0px) and (max-width: 560px)
+{
+    .header
+    {
+        height: 25vh;
+    }
+     .header__title-screen
+    {
+        height: 25vh;
+    } 
+    .title-screen
+    {
+        opacity: 0.7;
+    }
+    .title-screen__title
+    {
+        opacity: 1;
+    }
+    .title-screen__button
+    {
+        opacity: 1;
+    }
+    .header__nav-link
+    {
+        font-size: 1.7em;
+    }
+
+}
